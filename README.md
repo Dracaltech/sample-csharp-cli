@@ -25,7 +25,7 @@ dotnet run sample-csharp-cli.sln
 
 
 ## Sample output
-<img src="https://github.com/Dracaltech/sample-node-vcp/assets/1357711/305ff9ae-2d98-4485-99a6-d09c02523d1e" width=400 />
+<img src="https://github.com/Dracaltech/sample-csharp-cli/assets/1357711/655893a6-3305-4044-8285-d4cbdf418ac4" width=400 />
 
 ```
 Temperature (C): 99.39

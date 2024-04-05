@@ -38,9 +38,9 @@ class App
             return;
         }
 
-        Console.WriteLine("Temperature (C): " + fields[0]);
-        Console.WriteLine("RH......... (%): " + fields[1]);
-        Console.WriteLine("Pressure. (kPa): " + fields[2]);
-        Console.WriteLine("Temperature (F): " + (fields[0] * 9 / 5 + 32));
+        Console.WriteLine("Pressure. (kPa): " + fields[0]);
+        Console.WriteLine("Temperature (C): " + fields[1]);
+        Console.WriteLine("RH......... (%): " + fields[2]);
+        Console.WriteLine("Temperature (F): " + (fields[1] * 9 / 5 + 32));
     }
 }

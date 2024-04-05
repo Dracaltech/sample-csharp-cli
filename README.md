@@ -25,15 +25,15 @@ dotnet run sample-csharp-cli.sln
 
 
 ## Sample output
-<img src="https://github.com/Dracaltech/sample-csharp-cli/assets/1357711/655893a6-3305-4044-8285-d4cbdf418ac4" width=400 />
+<img src="https://github.com/Dracaltech/sample-csharp-cli/assets/1357711/f7563bfc-8fb6-4a8d-9943-e891719cf14d" width=400 />
 
 ```
-Temperature (C): 99.39
-RH......... (%): 21.5
-Pressure. (kPa): 54.16
-Temperature (F): 210.90201
+Pressure. (kPa): 101.23
+Temperature (C): 20.72
+RH......... (%): 56.95
+Temperature (F): 69.296
 
-C:\dev\dracal\sample-csharp-cli\bin\Debug\net8.0\sample-csharp-cli.exe (process 36996) exited with code 0.
+C:\dev\dracal\sample-csharp-cli\bin\Debug\net8.0\sample-csharp-cli.exe (process 6720) exited with code 0.
 To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
 Press any key to close this window . . .
 ```

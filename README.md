@@ -22,18 +22,49 @@ Run by
 dotnet run sample-csharp-cli.sln
 ```
 
+### Run mode
+While the main code sample is in `App.cs`, you'll find an alternative version in `AppRunMode.cs` which allows for a continuous stream of measurement outputs.
+
+To run it, you'll want to switch the **Startup object**:
+- Open the project's properties _(right-click on `sample-csharp-cli.csproj` > Properties)_
+- In _Application > General_, open the dropdown under _Startup object_ and instead of `App`, select `AppRunMode`.
+
+From there, you can use the same instructions as above ⤴️ to run it.
 
 
 ## Sample output
-<img src="https://github.com/Dracaltech/sample-csharp-cli/assets/1357711/f7563bfc-8fb6-4a8d-9943-e891719cf14d" width=400 />
+
+### Normal mode
+<img src="https://github.com/Dracaltech/sample-csharp-cli/assets/1357711/655893a6-3305-4044-8285-d4cbdf418ac4" width=400 />
 
 ```
-Pressure. (kPa): 101.23
-Temperature (C): 20.72
-RH......... (%): 56.95
-Temperature (F): 69.296
+Temperature (C): 99.39
+RH......... (%): 21.5
+Pressure. (kPa): 54.16
+Temperature (F): 210.90201
 
-C:\dev\dracal\sample-csharp-cli\bin\Debug\net8.0\sample-csharp-cli.exe (process 6720) exited with code 0.
+C:\dev\dracal\sample-csharp-cli\bin\Debug\net8.0\sample-csharp-cli.exe (process 36996) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .
+```
+
+### Run mode
+<img src="https://github.com/Dracaltech/sample-csharp-cli/assets/1357711/10f1118b-5c9c-444b-905a-95b6dd17c6be" width=400 />
+
+```
+USbtenki output: 101.22, 24.48, 49.34
+Temperature (C): 101.22
+RH......... (%): 24.48
+Pressure. (kPa): 49.34
+Temperature (F): 214.196
+
+USbtenki output: 101.22, 24.50, 49.34
+Temperature (C): 101.22
+RH......... (%): 24.5
+Pressure. (kPa): 49.34
+Temperature (F): 214.196
+
+C:\dev\dracal\sample-csharp-cli\bin\Debug\net8.0\sample-csharp-cli.exe (process 18544) exited with code -1073741510.
 To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
 Press any key to close this window . . .
 ```

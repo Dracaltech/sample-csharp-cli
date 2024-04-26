@@ -27,8 +27,6 @@ class AppRunMode
         while (!usbtenki.HasExited)
         {
             String? output = usbtenki.StandardOutput.ReadLine();
-            Console.WriteLine("\nUSbtenki output: " + output);
-            //continue;
             if (output == null)
             {
                 Console.Error.WriteLine("dracal-usb-get did not return data");
@@ -41,6 +39,9 @@ class AppRunMode
             }
             else
             {
+
+                Console.WriteLine($"\n{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}:");
+
                 Console.WriteLine("Temperature (C): " + fields[0]);
                 Console.WriteLine("RH......... (%): " + fields[1]);
                 Console.WriteLine("Pressure. (kPa): " + fields[2]);

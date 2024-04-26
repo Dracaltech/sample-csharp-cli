@@ -52,19 +52,19 @@ Press any key to close this window . . .
 <img src="https://github.com/Dracaltech/sample-csharp-cli/assets/1357711/10f1118b-5c9c-444b-905a-95b6dd17c6be" width=400 />
 
 ```
-USbtenki output: 101.22, 24.48, 49.34
-Temperature (C): 101.22
-RH......... (%): 24.48
-Pressure. (kPa): 49.34
-Temperature (F): 214.196
+2024-04-26 14:27:21:
+Temperature (C): 100.44
+RH......... (%): 22.56
+Pressure. (kPa): 45.06
+Temperature (F): 212.792
 
-USbtenki output: 101.22, 24.50, 49.34
-Temperature (C): 101.22
-RH......... (%): 24.5
-Pressure. (kPa): 49.34
-Temperature (F): 214.196
+2024-04-26 14:27:22:
+Temperature (C): 100.44
+RH......... (%): 22.59
+Pressure. (kPa): 45.08
+Temperature (F): 212.792
 
-C:\dev\dracal\sample-csharp-cli\bin\Debug\net8.0\sample-csharp-cli.exe (process 18544) exited with code -1073741510.
+C:\dev\dracal\sample-csharp-cli\bin\Debug\net8.0\sample-csharp-cli.exe (process 22780) exited with code -1073741510.
 To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
 Press any key to close this window . . .
 ```

@@ -49,7 +49,7 @@ Press any key to close this window . . .
 ```
 
 ### Run mode
-<img src="https://github.com/Dracaltech/sample-csharp-cli/assets/1357711/10f1118b-5c9c-444b-905a-95b6dd17c6be" width=400 />
+<img src="https://github.com/Dracaltech/sample-csharp-cli/assets/1357711/68d52d79-883b-4280-87df-b731ea96647c" width=400 />
 
 ```
 2024-04-26 14:27:21:
